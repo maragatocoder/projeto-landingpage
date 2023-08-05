@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Sriracha', cursive; */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    display: block;
+    border: 12px solid black;
+    max-height: 100vh;
+    background-image: linear-gradient(to right, #1c1f25 50%, #2b3138 50%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cabecalho-img {
+    display: flex;
+    max-width: 100px;
+}
+
+.cabecalho-nav {
+    display: flex;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.cabecalho-nav > a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 0.8em;
+}
+
+.cabecalho-nav > a:hover {
+    color: rgb(228, 228, 228);
+}
+
+.cabecalho-div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.cabecalho-button {
+    display: flex;
+    background-color: #fe662a;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+}
+
+.cabecalho-button > a > span {
+    color: white;
+    font-size: 22px;
+    line-height: 35px;
+    padding-left: 7px;
+}
+
+#span-burger {
+    color: white;
+    font-size: 35px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 400px;
+    color: white;
+    font-size: 6em;
+}
+
+.tenis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 650px;
+    height: 650px;
+}
+
+.div-esq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.div-dir {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
