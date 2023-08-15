@@ -130,6 +130,7 @@ h1#just {
     justify-content: flex-start;
     flex-wrap: nowrap;
     flex-grow: 1;
+    padding-left: 200px;
 
 }
 
@@ -138,6 +139,7 @@ h1#just {
     font-size: 1.3em;
     padding-bottom: 10px;
     color: white;
+
 }
 
 .div-esq > p {
@@ -153,6 +155,7 @@ h1#just {
     justify-content: flex-end;
     align-items: flex-end;
     flex-wrap: nowrap;
+    padding-right: 200px;
 }
 
 .div-dir > h2 {
@@ -167,9 +170,13 @@ h1#just {
     font-size: 0.8em;
     max-width: 250px;
     color: #646464;
+    text-align: right;
 }
 
-.buttton-2 {
+.button-2 {
+    background-color: none;
+    
+    padding-right: 150px;
 
 }
 
