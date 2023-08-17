@@ -5,20 +5,20 @@
     
     h1 {
         font-family: 'Roboto', sans-serif;
-        max-width: 400px;
+        max-width: 300px;
         color: white;
-        font-size: 4em;
+        font-size: 3em;
     }
 
     h1#air {
         display: flex;
         justify-content: flex-start;
         padding-top: 50px;
-        padding-left: 40px;
+        padding-left: 60px;
     }
 
     .tenis {
-        width: 60vw;
+        width: 40vw;
         
         position: absolute;
         top: 45%;
@@ -33,8 +33,8 @@
 
     .container-3 {
         gap: 50px;
-        margin-bottom: 15px;
-        margin-top: 15px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
     
     .explore {
@@ -51,9 +51,9 @@
     }
     
     h1#just {
-        font-size: 14em;
+        font-size: 10em;
         width: 0vw;
-        line-height: 230px;
+        line-height: 170px;
         color: #262c33; 
     
         position: absolute;
