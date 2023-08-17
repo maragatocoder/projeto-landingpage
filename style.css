@@ -12,7 +12,6 @@ font-family: 'Sriracha', cursive; */
 body {
     display: block;
     border: 12px solid rgb(15, 15, 15);
-    
     background-image: linear-gradient(to right, #1c1f25 50%, #2b3138 50%);
 }
 
