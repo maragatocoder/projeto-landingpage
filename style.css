@@ -30,6 +30,10 @@ body {
     max-width: 80px;
 }
 
+.cabecalho-img > a:hover {
+    cursor: pointer;
+}
+
 .cabecalho-nav {
     display: flex;
     font-family: 'Roboto', sans-serif; 
@@ -177,7 +181,7 @@ h1#air {
 }
 
 .explore {
-    width: 250px;
+    width: 350px;
     height: 25px;
     margin-top: 80px;
     background-color: #fe662a;
@@ -187,7 +191,7 @@ h1#air {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 0.8em;
-    padding-left: 150px;
+    padding-left: 240px;
     padding-right: 10px;
     padding-top: 5px;
     
@@ -197,7 +201,8 @@ h1#air {
     display: flex;
     justify-content: center;
     gap: 70px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .pay {
